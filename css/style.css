@@ -28,6 +28,12 @@ nav .sidenav-trigger{
   padding: 0;
 }
 
+#card-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .responsive-img {
   display: block;
   margin: 20px auto;
