@@ -23,7 +23,15 @@ nav span{
   color: var(--title);
   font-size: 2.5em;
 }
+
+.nav-link {
+  /* display: flex; */
+  font-size: 2em;
+  margin-left: 10px;
+}
+
 nav .sidenav-trigger{
+  visibility: hidden;
   margin: 0;
   padding: 0;
 }
@@ -59,5 +67,11 @@ form .input-field{
 @media screen and (max-width: 576px) {
   .responsive-img {
     width: 75%;
+  }
+  nav .sidenav-trigger{
+    visibility: visible;
+  }
+  .nav-link {
+    display: none;
   }
 }
