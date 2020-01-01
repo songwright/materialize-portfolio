@@ -35,12 +35,6 @@ nav .sidenav-trigger{
   padding: 0;
 }
 
-#card-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .icon-img {
   width: 50px;
 }
