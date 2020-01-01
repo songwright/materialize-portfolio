@@ -41,6 +41,10 @@ nav .sidenav-trigger{
   justify-content: space-between;
 }
 
+.icon-img {
+  width: 50px;
+}
+
 .responsive-img {
   display: block;
   margin: 20px auto;
