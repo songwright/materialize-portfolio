@@ -40,6 +40,10 @@ nav .sidenav-trigger{
   padding: 0;
 }
 
+.row {
+  margin: 0 auto;
+}
+
 .row p {
   margin-top: 0;
 }
