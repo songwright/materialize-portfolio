@@ -15,6 +15,11 @@ body {
 }
 
 /* layout styles */
+
+h3 {
+  margin: 16px 0;
+}
+
 nav{
   background: var(--primary);
   border-bottom: 10px solid var(--secondary);
@@ -35,14 +40,18 @@ nav .sidenav-trigger{
   padding: 0;
 }
 
+.row p {
+  margin-top: 0;
+}
+
 .icon-img {
   width: 50px;
 }
 
 .responsive-img {
   display: block;
-  margin: 20px auto;
-  width: 35%;
+  margin: 10px auto;
+  width: 100%;
   height: auto;
 }
 
