@@ -4,7 +4,13 @@
 
 body {
   color: black;
-  /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
+  background: linear-gradient(120deg, #fff, var(--secondary));
+  background-size: 400% 400%;
+
+  -webkit-animation: CyclingBackground 8s ease infinite;
+  -moz-animation: CyclingBackground 8s ease infinite;
+  animation: CyclingBackground 8s ease infinite;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /* colors */
@@ -84,4 +90,20 @@ form .input-field{
   .nav-link {
     display: none;
   }
+}
+
+@-webkit-keyframes CyclingBackground {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes CyclingBackground {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes CyclingBackground {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
