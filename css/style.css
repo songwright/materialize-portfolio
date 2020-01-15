@@ -4,7 +4,7 @@
 
 body {
   color: black;
-  background: linear-gradient(120deg, #fff, var(--secondary));
+  background: linear-gradient(120deg, #f4eeeb, #e0edff);
   background-size: 400% 400%;
 
   -webkit-animation: CyclingBackground 8s ease infinite;
